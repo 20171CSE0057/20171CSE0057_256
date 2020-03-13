@@ -1,0 +1,111 @@
+div.class1{
+background-image:repeating-linear-gradient(to right,red,yellow 10%,green 20%);
+border:solid;
+width:600px;
+height:100px;
+margin-left:25%;
+}
+li{
+  display: inline;
+}
+a{
+margin:auto;
+color:white;
+text-decoration:none;
+padding:50px 50px;
+}
+p::first-letter{font-size:xx-large;
+}
+div.class2{
+height:150px;
+width:800px;
+background-image:url('/home/6CSE1/Pictures/index1.jpeg');
+}
+div.class3{
+margin-top:50px;
+margin-left:10%;
+width:600px;
+height:100px;
+opacity:0.6;
+background-color:red;
+}
+::selection{color:red;background:yellow;}
+
+
+
+p{background-image:repeating-radial-gradient(red,yellow);}
+
+div.class4{
+width:100px;
+height:100px;
+background-image:repeating-linear-gradient(to right,red,yellow 10%,green 20%);
+transition:width 2s,height 4s;
+}
+div.class4:hover{width:300px;height:300px;}
+
+div.class5{
+width:100px;
+height:100px;
+background-image:repeating-linear-gradient(to right,red,yellow 10%,green 20%);
+transition:width 2s,height 4s,transform 2s;
+}
+div.class5:hover{
+width:300px;
+height:300px;
+transform:rotate(360deg);
+}
+
+
+div.class6{
+width:100px;
+height:100px;
+background-color:red;
+animation-name:example;
+animation-duration:4s;
+}
+@Keyframes example{
+from{background-color:red;}
+to{background-color:yellow;}
+}
+
+@keyframes example1 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+div.class7 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+
+div.gallery {
+  margin:5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width:100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+

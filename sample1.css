@@ -1,0 +1,53 @@
+body{
+background-color:grey;
+font-style:italic;
+}
+h1{color:maroon;
+margin-left:40px;
+}
+p{color:blue;
+
+font-family:courier,garamond,serif;
+font-style:italic;
+font-size:large;
+font-weight:bold;
+font-stretch:ultra-expanded;
+letter-spacing:5px;
+text-indent:1cm;
+word-spacing:5px;
+text-align:center;
+}
+p.normal{color:red;
+background-color:pink;
+text-align:left}
+p.warning{color:green;text-align:right}
+#id1{background-color:red;}
+p.my{background-color:green;}
+p.one{border-style:solid;border-width:5px}
+p.two{border-style:solid;border-width:medium}
+p.three{border-style:solid;border-width:2px 10px 4px 10px;border-color:red green blue yellow}
+p.four{border-top-style:solid;border-right-style:dotted;border-left-style:dotted;border-bottom-style:solid;}
+p.five{margin: 25px 50px 75px 100px;}
+div{width:300px;margin:auto;border:1px solid red;padding:15px}
+#id2{padding:10px}
+div.myclass{width:300px;
+border:25px solid green;
+padding:25px;
+margin:25px;
+}
+li{display:inline;}
+span{display:block;}
+a{display:block;}
+span.a{display:inline;width:100px;height:100px;padding:5px;border:1px solid blue;background-color:yellow;}
+span.b{display:inline-block;width:200px;height:100px;padding:5px;border:1px solid blue;background-color:yellow;}
+span.c{display:block;width:200px;height:100px;padding:5px;border:1px solid blue;background-color:yellow;}
+div.id3{display:inline;}
+p.text{text-decoration:underline;}
+p.text1{text-decoration:none;color:green;}
+p.button1{text-decoration:none;border-color:green;padding:3px;border:1px}
+p.button2{text-decoration:none;border-color:yellow;color:white;background-color:yellow;}
+a:link{color:red;}
+a:visited{color:green;}
+a:hover{color:hotpink;}
+a:active{color:blue;}
+
